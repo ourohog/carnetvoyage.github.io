@@ -1,0 +1,115 @@
+html {
+    background-image:url(images/pastel-yellow-color-solid-background-1920x1080.png);
+    scroll-behavior: smooth;
+}
+
+.header {
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: lightyellow;
+
+}
+
+.centerer {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+    background-color: rgb(150, 201, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+}
+
+.text-left {
+    text-align: left;
+    background-color: rgb(150, 201, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.crainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.nomargin {
+    position: relative;
+    padding: 0%;
+    text-align: center;
+    top: 0%;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    margin: 0%;
+}
+
+#section1 {
+    height: 900px;
+}
+
+#section2 {
+    height: 600px;
+}
+
+button {
+    border-radius: 15px;
+    border-color: transparent;
+    background-color:rgb(42, 93, 165);
+    width: 20%;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 14px 28px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
